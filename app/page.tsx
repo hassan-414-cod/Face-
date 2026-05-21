@@ -23,8 +23,8 @@ export default function Home() {
               <h1 className="text-xl font-bold tracking-tight">RideScan</h1>
             </div>
             <TabsList className="bg-blue-700/50 border-blue-500/50 h-9 hidden sm:flex">
-              <TabsTrigger value="customer" className="data-[state=active]:bg-blue-500 data-[state=active]:text-white text-white/70 hover:text-white px-4 text-sm transition-colors">Customer Portal</TabsTrigger>
-              <TabsTrigger value="driver" className="data-[state=active]:bg-blue-500 data-[state=active]:text-white text-white/70 hover:text-white px-4 text-sm transition-colors">Driver Portal</TabsTrigger>
+              <TabsTrigger value="customer" className="data-[state=active]:bg-blue-500 text-white px-4 text-sm transition-colors">Customer Portal</TabsTrigger>
+              <TabsTrigger value="driver" className="data-[state=active]:bg-blue-500 text-white px-4 text-sm transition-colors">Driver Portal</TabsTrigger>
             </TabsList>
           </div>
 
@@ -39,8 +39,8 @@ export default function Home() {
 
         <div className="sm:hidden bg-blue-600 px-4 pb-3 flex justify-center border-b border-blue-700">
           <TabsList className="bg-blue-700/50 border-blue-500/50 h-9">
-            <TabsTrigger value="customer" className="data-[state=active]:bg-blue-500 data-[state=active]:text-white text-white/70 hover:text-white px-4 text-sm transition-colors">Customer Portal</TabsTrigger>
-            <TabsTrigger value="driver" className="data-[state=active]:bg-blue-500 data-[state=active]:text-white text-white/70 hover:text-white px-4 text-sm transition-colors">Driver Portal</TabsTrigger>
+            <TabsTrigger value="customer" className="data-[state=active]:bg-blue-500 text-white px-4 text-sm transition-colors">Customer Portal</TabsTrigger>
+            <TabsTrigger value="driver" className="data-[state=active]:bg-blue-500 text-white px-4 text-sm transition-colors">Driver Portal</TabsTrigger>
           </TabsList>
         </div>
 

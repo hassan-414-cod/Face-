@@ -242,7 +242,6 @@ export function DriverDashboard() {
               
               <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-200 aspect-video relative flex flex-col items-center justify-center">
                 {faceImage ? (
-                  // eslint-disable-next-line @next/next/no-img-element
                   <img src={faceImage} alt="Face Scan" className="absolute inset-0 w-full h-full object-cover scale-x-[-1]" />
                 ) : (
                    <>
